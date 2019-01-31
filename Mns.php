@@ -1,5 +1,5 @@
 <?php
-namespace koenigseggposche\yii2mns;
+namespace xionglonghua\yii2mns;
 
 use Yii;
 use yii\base\Component;
