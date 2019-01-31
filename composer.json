@@ -1,0 +1,30 @@
+{
+    "name": "xionglonghua/yii2-mns",
+    "type": "library",
+    "description": "Aliyun MNS library for Yii2 framework",
+    "keywords": [
+        "yii2",
+        "yii2-mns",
+        "Aliyun",
+        "MQ",
+        "MNS"
+    ],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "steve.xiong",
+            "email": "longhuadaxia@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0",
+        "yiisoft/yii2": "~2.0",
+        "xionglonghua/aliyun-mns-php-sdk": "1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xionglonghua\\yii2mns\\": ""
+        }
+    }
+}
