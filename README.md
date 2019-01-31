@@ -12,13 +12,13 @@ Yii2-Aliyun-Mns是阿里云平台消息服务的Yii2封装。
 手动执行
 
 ```
-php composer.phar require koenigseggposche/yii2mns
+php composer.phar require xionglonghua/yii2mns
 ```
 
 或者添加
 
 ```
-"koenigseggposche/yii2mns": "*"
+"xionglonghua/yii2mns": "*"
 ```
 
 到工程的 `composer.json` 文件
@@ -29,7 +29,7 @@ php composer.phar require koenigseggposche/yii2mns
 
 ```php
 'mns'=>[
-    'class'=>'koenigseggposche\yii2mns\Mns',
+    'class'=>'xionglonghua\yii2mns\Mns',
     'accessId' => '',
     'accessKey' => '',
     'endpoint' => 'http://.mns.cn-beijing.aliyuncs.com/',
